@@ -9,5 +9,11 @@ namespace Part1.Controllers
             // Return the home view
             return View();
         }
+
+        public IActionResult About()
+        {
+            // Return the about view
+            return View();
+        }
     }
 }
